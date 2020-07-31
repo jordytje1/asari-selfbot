@@ -29,5 +29,5 @@ evtFiles.forEach(file => {
 console.log(`Loaded ${evtFiles.length} events.`)
 
 
-client.login(config.tokens[i])
+bot.login(process.env.TOKEN);
 }
